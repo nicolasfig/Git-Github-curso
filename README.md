@@ -16,13 +16,15 @@ Creado por Linus Torvalds cuanto hicieron propietario el software que usaba para
 
 **Ventajas**
 
-1.  Velocidad.
+1. Velocidad.
 2. Diseño sencillo. 
 3. Desarrollo no lineal.
 4. Distribuido.
 5. Puede mantener grandes proyectos.
 
-Guarda referencias de todos los archivos en el tiempo.
+Guarda _referencias _de todos los archivos en el tiempo.
+
+## Estados de Git
 
 
 
