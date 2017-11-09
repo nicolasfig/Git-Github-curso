@@ -22,7 +22,7 @@ Creado por Linus Torvalds cuanto hicieron propietario el software que usaba para
 4. Distribuido.
 5. Puede mantener grandes proyectos.
 
-Guarda _referencias _de todos los archivos en el tiempo.
+Guarda _referencias_  de todos los archivos en el tiempo.
 
 ## Estados de Git
 
