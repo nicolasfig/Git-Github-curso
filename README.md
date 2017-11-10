@@ -236,7 +236,11 @@ git branch -d [nombre] ## borrar rama
 git branch -m [nombre-inicial] [nombre-nuevo] ## renombrar ramas
 ```
 
+## Movimiento entre branches y versiones
 
+```
+git checkout [nombre-rama] ## cambio de rama rama
+```
 
 
 
