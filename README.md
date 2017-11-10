@@ -134,5 +134,27 @@ git commit -m "mensaje" ## confirma los cambios y agrega un mensaje
 git log ## muestra historial de commits
 ```
 
+## Etiquetando confirmaciones 
+
+```
+git tag ## agrega etiquetas
+ -a anotación
+ -m mensaje
+ -l lista de etiquetas
+ -d borra un tag
+ -f para agregar un tag adicional o para reemplazar un tag anterior
+ 
+```
+
+```
+git tag [tag] [hash] ## agrega tag al commit con un hash determinado
+```
+
+## Revisar el historial del proyecto
+
+```
+git log
+```
+
 
 
