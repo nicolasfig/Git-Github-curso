@@ -36,5 +36,35 @@ Guarda _referencias_ de todos los archivos en el tiempo.
 
    1. En donde se almacenan los cambios.
 
+## Github
+
+Es un hosting en el que se almacenan los cambios en internet, permite la colaboración en un proyecto por medio de internet, ayuda en la organización de los proyectos
+
+* Permite marcar bugs.
+* Permite poner tareas.
+* Mantiene una copia en la _nube_ de el repositorio.
+
+## Instalación en Linux \(debian\)
+
+```
+sudo apt-get install git
+```
+
+## Configuración basica
+
+```
+git config --global user.email user@host.com
+```
+
+```
+
+git config --global user.name mcnameface
+```
+
+```
+
+git config --global color.ui true
+```
+
 
 
