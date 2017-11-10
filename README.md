@@ -201,9 +201,12 @@ git reset HEAD [archivo]
 ```
 
 ```
-git reset --hard
-## saca los cambios del repositorio y borra los cambios en los archivos 
+git reset --hard [sha1]
+## saca los cambios del repositorio y borra los cambios en los archivos hasta el commit 
+con un sha1 determinado
 ## usar con precaución puede borrar tracked files
+## si se tiene el ultimo sha1 se puede recuperar el ultimo estado del 
+repositorio con el mismo comando
 ```
 
 ## 
