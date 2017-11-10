@@ -101,11 +101,11 @@ git status ## muestra el estado del repositorio
 ```
 
 ```
-git add index.html ## agrega el archivo al staging 
+git add index.html ## agrega el archivo al staging
 ```
 
 ```
-git rm --cached index.html ## saca el archivo del staging 
+git rm --cached index.html ## saca el archivo del staging
 ```
 
 ```
@@ -124,6 +124,14 @@ git add  -n [archivo] muestra si un archivo existe
 
 ```
 git commit -m "mensaje" ## confirma los cambios y agrega un mensaje
+```
+
+```
+--amend ## concatena este commit ocn un commit anterior
+```
+
+```
+git log ## muestra historial de commits
 ```
 
 
