@@ -127,7 +127,7 @@ git commit -m "mensaje" ## confirma los cambios y agrega un mensaje
 ```
 
 ```
---amend ## concatena este commit ocn un commit anterior
+--amend ## concatena este commit con un commit anterior
 ```
 
 ```
