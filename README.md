@@ -200,5 +200,13 @@ git reset HEAD [archivo]
 ## mixed reset manual
 ```
 
+```
+git reset --hard
+## saca los cambios del repositorio y borra los cambios en los archivos 
+## usar con precaución puede borrar tracked files
+```
+
+## 
+
 
 
