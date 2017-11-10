@@ -211,7 +211,5 @@ repositorio con el mismo comando
 
 ## Cambiar editor por defecto git
 
-git config --global core.editor "\[comando de lanzamiento de editor\]" 
-
-
+git config --global core.editor "\[comando de lanzamiento de editor\] --wait"
 
