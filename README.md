@@ -90,6 +90,16 @@ git init primer_repo ## crea un repositorio en la carpeta primer_repo
 rm -rf .git
 ```
 
+## Agregar, quitar y ver status de los archivos
+
+```
+touch index.html
+```
+
+```
+git status ## muestra el estado del repositorio 
+```
+
 
 
 
