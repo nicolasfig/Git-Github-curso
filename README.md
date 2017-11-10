@@ -239,8 +239,42 @@ git branch -m [nombre-inicial] [nombre-nuevo] ## renombrar ramas
 ## Movimiento entre branches y versiones
 
 ```
-git checkout [nombre-rama] ## cambio de rama rama
+git checkout [nombre-rama] ## cambio de branch
 ```
+
+```
+git checkout [sha1] 
+## retorna en un branch virtual el proyecto a un estado anterior 
+```
+
+```
+git checkout -b [nombre-rama] ## crea un branch y se mueve a este
+```
+
+## Trabajo en branches
+
+Cuando se trabaja en una rama los cambios quedan en esa rama, el proyecto puede verse en el estado de la rama en la que se este trabajando
+
+## Mezclado de branches y resolución de conflictos
+
+```
+git merge [brach] ## mezcla un branch con el branch en el que se este ubicado actualmente
+```
+
+**fast-forward** mezcla automaticamente
+
+**recursive** si hay cambios nuevos en el branch master provenientes de otro branch
+
+**conflictos ** Deben ser solucionados antes de hacer merge
+
+## Reescribir la historia de un proyecto
+
+```
+git rebase ## cambia la historia del proyecto funciona de manera similar a merge
+-i interactivo
+```
+
+**solo para trabajo local puede reescribir la historia de repositorios remotos **
 
 
 
