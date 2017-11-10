@@ -196,6 +196,7 @@ git reset --soft [sha1]
 ```
 ## quita los cambios del repositorio y del stage
 git reset --mixed [sha1]
+git reset HEAD [archivo] ## mixed reset manual
 ```
 
 
