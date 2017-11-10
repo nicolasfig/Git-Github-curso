@@ -146,12 +146,12 @@ git tag ## agrega etiquetas
 ```
 
 ```
-git tag [tag] [hash] ## agrega tag al commit con un hash determinado
+git tag [tag] [sha1] ## agrega tag al commit con un sha1 determinado
 ```
 
 ```
-## agrega un tag con un mensaje al commit con un hash determinado
-git tag -f -a [tag] -m "mensaje" [hash]
+## agrega un tag con un mensaje al commit con un sha1 determinado
+git tag -f -a [tag] -m "mensaje" [sha1]
 ```
 
 ## Revisar el historial del proyecto
@@ -174,4 +174,13 @@ git log -[num] muestra un número determinado de commits
 ```
 
 Es un comando altamente configurable \(revisar la documentación de git\)
+
+## Revisando cambios entre versiones
+
+```
+git diff [hash] ## muestra cambios entre el commit inicial
+
+```
+
+
 
