@@ -97,10 +97,34 @@ touch index.html
 ```
 
 ```
-git status ## muestra el estado del repositorio 
+git status ## muestra el estado del repositorio
 ```
 
+```
+git add index.html ## agrega el archivo al staging 
+```
 
+```
+git rm --cached index.html ## saca el archivo del staging 
+```
+
+```
+git add -A ## agrega todos los archivos al staging
+```
+
+```
+git rm -f [archivo] ## borra el archivo del staging y de el equipo
+```
+
+```
+git add  -n [archivo] muestra si un archivo existe
+```
+
+## Confirmando cambios
+
+```
+git commit -m "mensaje" ## confirma los cambios y agrega un mensaje
+```
 
 
 
