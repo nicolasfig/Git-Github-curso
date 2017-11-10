@@ -185,12 +185,17 @@ git diff [sha1] ## muestra cambios entre el commit inicial
 git diff [sha1A] [sha1B]  ## compara dos commits (versiones)
 ```
 
-## Quitar cambios de un commit especifico
+## Quitar cambios
 
 ```
 git reset --soft [sha1] 
 ## quita los cambios de el commit que sigue al sha1 determinado 
 ## no borra cambios en los archivos
+```
+
+```
+## quita los cambios del repositorio y del stage
+git reset --mixed [sha1]
 ```
 
 
