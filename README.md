@@ -217,5 +217,26 @@ git config --global core.editor "[comando de lanzamiento de editor] --wait"
 
 ## Branches o variantes del repositorio
 
+Son usadas para el trabajo en equipo y no crear conflictos con la rama master, en caso de que existan bugs no afectaran el proyecto en total si se encuentran en ramas separadas
+
+```
+git branch [nombre] ## crear rama
+```
+
+```
+git branch -l ## listar ramas
+```
+
+```
+git branch -d [nombre] ## borrar rama
+-D # borrar rama forzado
+```
+
+```
+git branch -m [nombre-inicial] [nombre-nuevo] ## renombrar ramas
+```
+
+
+
 
 
