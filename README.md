@@ -78,7 +78,16 @@ touch ## crea (archivos)
 rm ## borra archivos
 rm -rf ## borra directorios vacios (o todo tu pc)
 ls ## lista los ficheros
+```
 
+## Crear repositorios de forma local
+
+```
+git init primer_repo ## crea un repositorio en la carpeta primer_repo
+```
+
+```
+rm -rf .git
 ```
 
 
