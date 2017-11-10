@@ -157,16 +157,20 @@ git tag -f -a [tag] -m "mensaje" [hash]
 ## Revisar el historial del proyecto
 
 ```
-git log 
+git log
 ```
 
 ```
-git log --oneline un log resumido 
+git log --oneline un log resumido
 ```
 
 ```
 ## muestra un grafico detallado del proyecto en caso de que este contenga branches
-git log --oneline --graph 
+git log --oneline --graph
+```
+
+```
+git log -[num] muestra un número determinado de commits 
 ```
 
 
