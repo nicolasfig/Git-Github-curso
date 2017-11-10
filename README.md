@@ -181,5 +181,9 @@ Es un comando altamente configurable \(revisar la documentación de git\)
 git diff [sha1] ## muestra cambios entre el commit inicial
 ```
 
+```
+git diff [sha1A] [sha1B]  ## compara dos commits (versiones)
+```
+
 
 
