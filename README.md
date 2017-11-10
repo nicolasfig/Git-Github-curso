@@ -34,7 +34,7 @@ Guarda _referencias_ de todos los archivos en el tiempo.
    1. Archivos del working directory que estan listos para ser agregados al repositorio.
 3. ### Git Directory
 
-   1. En donde se almacenan los cambios.
+   1. En donde se almacenan los cambios, es el repositorio en si.
 
 ## Github
 
@@ -43,6 +43,7 @@ Es un hosting en el que se almacenan los cambios en internet, permite la colabor
 * Permite marcar bugs.
 * Permite poner tareas.
 * Mantiene una copia en la _nube_ de el repositorio.
+* Tiene muchas otras funcionalidades.
 
 ## Instalación en Linux \(debian\)
 
@@ -57,14 +58,30 @@ git config --global user.email user@host.com
 ```
 
 ```
-
 git config --global user.name mcnameface
 ```
 
 ```
-
 git config --global color.ui true
 ```
+
+## Comandos basicos de terminal para git
+
+```
+cd ## permite moverse entre carpetas 
+cd .. navega hacia atras en las carpetas
+```
+
+```
+mkdir ## crea carpetas desde la terminal
+touch ## crea (archivos) 
+rm ## borra archivos
+rm -rf ## borra directorios vacios (o todo tu pc)
+ls ## lista los ficheros
+
+```
+
+
 
 
 
