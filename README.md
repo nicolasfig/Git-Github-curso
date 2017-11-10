@@ -292,7 +292,9 @@ El cambio debe estar en stage
 
 ## Cherry pick para elegir commits selectivamente
 
-git cherry-pick \[sha1\]
+```
+git cherry-pick [sha1] #aplica cambios introducidos por algun commit
+```
 
 
 
