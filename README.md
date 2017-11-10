@@ -282,9 +282,17 @@ Si no hay cambios listos para confirmar, stash funciona como un estado intermedi
 
 ```
 git stash ## guarda cambios de una rama temporalmente 
-list #muestra una lista de los cambios que estan en stash
-drop stash@{num} #descarta el stash 
+    list #muestra una lista de los cambios que estan en stash
+    drop stash@{num} #descarta el stash
+    git stash apply #aplica el cambio que este en el valor {0}
+    git stash apply stash@{num} #aplica un stash determinado
 ```
+
+El cambio debe estar en stage
+
+## Cherry pick para elegir commits selectivamente
+
+git cherry-pick \[sha1\]
 
 
 
