@@ -244,7 +244,7 @@ git checkout [nombre-rama] ## cambio de branch
 
 ```
 git checkout [sha1] 
-## retorna en un branch virtual el proyecto a un estado anterior 
+## retorna en un branch virtual el proyecto a un estado anterior
 ```
 
 ```
@@ -275,6 +275,16 @@ git rebase ## cambia la historia del proyecto funciona de manera similar a merge
 ```
 
 **solo para trabajo local puede reescribir la historia de repositorios remotos **
+
+## Guardar cambios temporalmente
+
+Si no hay cambios listos para confirmar, stash funciona como un estado intermedio.
+
+```
+git stash ## guarda cambios de una rama temporalmente 
+list #muestra una lista de los cambios que estan en stash
+drop stash@{num} #descarta el stash 
+```
 
 
 
