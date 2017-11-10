@@ -209,7 +209,9 @@ con un sha1 determinado
 repositorio con el mismo comando
 ```
 
-## 
+## Cambiar editor por defecto git
+
+git config --global core.editor "\[comando de lanzamiento de editor\]" 
 
 
 
