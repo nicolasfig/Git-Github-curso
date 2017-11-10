@@ -178,8 +178,7 @@ Es un comando altamente configurable \(revisar la documentación de git\)
 ## Revisando cambios entre versiones
 
 ```
-git diff [hash] ## muestra cambios entre el commit inicial
-
+git diff [sha1] ## muestra cambios entre el commit inicial
 ```
 
 
