@@ -170,8 +170,8 @@ git log --oneline --graph
 ```
 
 ```
-git log -[num] muestra un número determinado de commits 
+git log -[num] muestra un número determinado de commits
 ```
 
-
+Es un comando altamente configurable \(revisar la documentación de git\)
 
