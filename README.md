@@ -296,5 +296,26 @@ El cambio debe estar en stage
 git cherry-pick [sha1] #aplica cambios introducidos por algun commit
 ```
 
+# Github
+
+# Clonar repositorios
+
+```
+git clone [url-repositorio]
+## protocolos
+https 
+ssh
+```
+
+fork: hace una copia del proyecto en la cuenta github del usuario. 
+
+## Agregar una llave ssh 
+
+Crea una llave ssh  local que puede conectarse con una cuenta de github para tener una conexion automatica entre git y github
+
+```
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+```
+
 
 
