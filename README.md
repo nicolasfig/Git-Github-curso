@@ -319,14 +319,14 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 ## Agregar remote
 
-Agregar la direccion de un repositorio remoto a uno local para conectarlos.  
+Agregar la direccion de un repositorio remoto a uno local para conectarlos.
 
 ```
 git remote add origin [url repositorio] # conecta repositorio local con el remoto
 ```
 
 ```
-git remote -v # ver repositorios remotos 
+git remote -v # ver repositorios remotos
 ```
 
 ```
@@ -336,7 +336,7 @@ git remote remove [nombre repo remoto]
 ## Uso de pull/fetch \(traer cambios desde el repositorio remoto\)
 
 ```
-git fetch [remote] [branch] 
+git fetch [remote] [branch]
 ```
 
 Hacer merge con el repo remoto
@@ -345,19 +345,19 @@ Hacer merge con el repo remoto
 git merge origin/master
 ```
 
-Traer cambios desde el repositorio remoto y hacer merge 
+Traer cambios desde el repositorio remoto y hacer merge
 
 ```
 git pull [remote] [branch]
 ```
 
-## Enviar cambios 
+## Enviar cambios
 
 ```
 git push [remote] [branch]
 ```
 
-Enviar tags 
+Enviar tags
 
 ```
 git push [remote] [branch] -- tags
@@ -365,15 +365,19 @@ git push [remote] [branch] -- tags
 
 ## Issues & pull requests
 
-**Issues**: Problemas o puntos a mejorar en un proyecto. 
+**Issues**: Problemas o puntos a mejorar en un proyecto.
 
-Crear un template de issues 
+Crear un template de issues
 
 Crear un archivo llamado **issue\_template.md**
 
-Crear template para pull requests 
+Crear template para pull requests
 
-Crear un archivo llamado **pull_request_template.md**
+Crear un archivo llamado **pull\_request\_template.md**
 
-Es util usar - [ ] para crear checkboxes
+Es util usar - \[ \] para crear checkboxes
+
+Usar .gitignore para ignorar archivos. 
+
+[gitignore comunes](https://www.gitignore.io/)
 
