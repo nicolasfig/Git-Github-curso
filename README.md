@@ -365,7 +365,7 @@ git push [remote] [branch] -- tags
 
 ## Issues & pull requests
 
-**Issues**: Problemas o puntos a mejorar en un proyecto.
+**Issues**: Reportes de problemas o puntos a mejorar en un proyecto.
 
 Crear un template de issues
 
@@ -377,7 +377,13 @@ Crear un archivo llamado **pull\_request\_template.md**
 
 Es util usar - \[ \] para crear checkboxes
 
-Usar .gitignore para ignorar archivos. 
+Usar .gitignore para ignorar archivos.
 
 [gitignore comunes](https://www.gitignore.io/)
+
+Pull request: rama alterna que debe ser revisada antes de mesclarse con la rama principal u otra rama. 
+
+### Milestones
+
+Grupos de issues o pull requests que constituyen un punto importante en el desarrollo de un proyecto
 
