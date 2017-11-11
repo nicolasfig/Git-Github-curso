@@ -307,9 +307,9 @@ https
 ssh
 ```
 
-fork: hace una copia del proyecto en la cuenta github del usuario. 
+fork: hace una copia del proyecto en la cuenta github del usuario.
 
-## Agregar una llave ssh 
+## Agregar una llave ssh
 
 Crea una llave ssh  local que puede conectarse con una cuenta de github para tener una conexion automatica entre git y github
 
@@ -317,5 +317,63 @@ Crea una llave ssh  local que puede conectarse con una cuenta de github para ten
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
 
+## Agregar remote
 
+Agregar la direccion de un repositorio remoto a uno local para conectarlos.  
+
+```
+git remote add origin [url repositorio] # conecta repositorio local con el remoto
+```
+
+```
+git remote -v # ver repositorios remotos 
+```
+
+```
+git remote remove [nombre repo remoto]
+```
+
+## Uso de pull/fetch \(traer cambios desde el repositorio remoto\)
+
+```
+git fetch [remote] [branch] 
+```
+
+Hacer merge con el repo remoto
+
+```
+git merge origin/master
+```
+
+Traer cambios desde el repositorio remoto y hacer merge 
+
+```
+git pull [remote] [branch]
+```
+
+## Enviar cambios 
+
+```
+git push [remote] [branch]
+```
+
+Enviar tags 
+
+```
+git push [remote] [branch] -- tags
+```
+
+## Issues & pull requests
+
+**Issues**: Problemas o puntos a mejorar en un proyecto. 
+
+Crear un template de issues 
+
+Crear un archivo llamado **issue\_template.md**
+
+Crear template para pull requests 
+
+Crear un archivo llamado **pull_request_template.md**
+
+Es util usar - [ ] para crear checkboxes
 
