@@ -381,9 +381,19 @@ Usar .gitignore para ignorar archivos.
 
 [gitignore comunes](https://www.gitignore.io/)
 
-Pull request: rama alterna que debe ser revisada antes de mesclarse con la rama principal u otra rama. 
+Pull request: rama alterna que debe ser revisada antes de mesclarse con la rama principal u otra rama.
 
 ### Milestones
 
 Grupos de issues o pull requests que constituyen un punto importante en el desarrollo de un proyecto
+
+#### Hacer ping a github pages
+
+```
+ping username.github.io
+```
+
+#### Dominio propio github
+
+Crear un archivo CNAME en el branch master con el nombre del dominio.
 
