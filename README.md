@@ -395,5 +395,8 @@ ping username.github.io
 
 #### Dominio propio github
 
-Crear un archivo CNAME en el branch master con el nombre del dominio.
+1. Crear un archivo CNAME en el branch master con el nombre del dominio.
+2. Modificar opciones DNS en el proveedor del dominio
+
+
 
